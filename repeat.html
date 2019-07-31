@@ -1,0 +1,17 @@
+<script>
+    document.write(' Output 1: <br>')
+    for (let i = 1; i < 11; i++) {
+        document.write('*'.repeat(i) + ' <br> ');
+    }
+
+    document.write(' Output 2: <br> ')
+    for (let i = 11; i >= 0; i--) {
+        document.write('*'.repeat(i) + ' <br> ');
+    }
+
+    document.write( " Output 3:<br>");
+    let tinggi = 10;
+    for (let baris = 0; baris < tinggi; baris++) {
+        document.write('&nbsp;'.repeat((tinggi - baris)*2) + '*'.repeat(2 * baris) + '<br>');
+    }
+</script>
